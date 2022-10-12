@@ -1,0 +1,281 @@
+/* fonts */
+@font-face {
+  font-family: light-300;
+  src: url(../fonts/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+  font-family: regular-400;
+  src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: bold-700;
+  src: url(../fonts/RobotoCondensed-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+/* TOP-SECTION */
+.style {
+  font-family: bold-700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #161722;
+  padding-left: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* TOP-SECTION END */
+/* SECTION 1 */
+
+.fonts-download {
+  height: 213px;
+  margin-left: 85px;
+  background-color: #FFF5EB;
+  width: 1280px;
+  align-items: center;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.download-fonts {
+  display: flex;
+}
+
+.txt-download {
+  font-family: bold-700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #161722;
+  margin: auto 0;
+}
+
+.file-roboto {
+  display: flex;
+  align-items: center;
+}
+
+.download-icon {
+  margin-right: 20px;
+  margin-left: 96px;
+}
+
+.file-icon {
+  margin-left: 250px;
+}
+
+.txt-roboto {
+  vertical-align: middle;
+  display: inline-block;
+  font-family: bold-700;
+  font-size: 24px;
+  line-height: 53px;
+  color: #161722;
+  margin: auto 0;
+}
+/* SECTION 1 END  */
+/* SECTION 2 */
+.uppercase {
+  font-family: bold-700;
+  margin-top: 48px;
+  margin-left: 85px;
+  text-transform: uppercase;
+}
+
+.h1 {
+  font-size: 64px;
+}
+
+.h2 {
+  font-size: 48px;
+}
+
+.h3 {
+  font-size: 40px;
+}
+
+.h4 {
+  font-size: 32px;
+}
+
+.h5 {
+  font-size: 24px;
+}
+
+.h6 {
+  font-size: 16px;
+}
+/* SECTION 2 END  */
+/* SECTION 3 */
+.colours-div {
+  display: flex;
+  width: 1000px;
+  height: 40px;
+}
+.color-p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -1px;
+  color: #161722;
+  margin-left: 85px;
+  margin-top: 90px;
+}
+.color {
+  flex: 20%;
+} 
+.black {
+  margin-left: 85px; 
+  background-color:  #161722;
+}
+.orange {
+  background: #FFD2A4;
+}
+.dim-orange {
+  background: #FFF5EB;
+}
+.dim-gray {
+  
+background: #F5F2F0;
+}
+.white {
+  background: #FFFFFF;
+}
+/* SECTION 2 END  */
+/* SECTION 3 */
+.button-hover {
+  display: flex;
+  margin-left: 85px;
+  width: 500px;
+}
+.button {
+  flex: 50%;
+}
+.hover {
+  flex: 50%;
+}
+.txt-button {
+font-weight: 700;
+font-size: 24px;
+margin-top: 90px;
+margin-bottom: 32px;
+line-height: 36px;
+letter-spacing: -1px;
+color: #161722;
+text-transform: none;
+}
+.first-button {
+  font-family: regular-400;
+  background-color: #FFD2A4;
+  border: 0px;
+  padding: 24px 64px;
+  border-radius: 12px;
+  font-size: 16px;
+}
+.second-button {
+  font-family: regular-400;
+  background-color: #161722;
+  border: 0px;
+  color: #FFD2A4;
+  padding: 24px 64px;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-top: 16px;
+}
+.third-button {
+  font-family: regular-400;
+  background-color: #FFD2A4;
+  border: 0px;
+  padding: 24px 64px;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-top: 16px;
+}
+.buttons {
+  text-transform: uppercase;
+}
+.hovers {
+  text-transform: uppercase;
+}
+.txt-hover {
+  font-weight: 700;
+font-size: 24px;
+margin-top: 90px;
+margin-bottom: 32px;
+line-height: 36px;
+letter-spacing: -1px;
+color: #161722;
+}
+.first-hover {
+  font-family: regular-400;
+  background-color: #FFD2A4;
+  border: 0px;
+  padding: 24px 64px;
+  border-radius: 12px;
+  font-size: 16px
+}
+.first-hover:hover {
+  background-color: #161722;
+  color: #FFD2A4;
+}
+.second-hover {
+  font-family: regular-400;
+  background-color: #161722;
+  border: 0px;
+  color: #FFD2A4;
+  padding: 24px 64px;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-top: 16px;
+}
+.second-hover:hover {
+  background-color: #FFD2A4 ;
+  color:#161722;
+}
+.third-hover {
+  font-family: regular-400;
+  background-color: #FFD2A4;
+  border: 0px;
+  padding: 24px 64px;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-top: 16px;
+}
+.third-hover:hover {
+  background-color: #161722;
+  color: #FFD2A4;
+}
+.connect {
+  display: flex;
+  justify-content: end;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+
+.connect a {
+  font-family: sans-serif;
+  border-radius: 35px;
+  text-align: center;
+  padding: 25px;
+  width: 150px;
+  height: 70px;
+  background-color: #d8a067;
+  text-decoration: none;
+  color: white;
+
+}
